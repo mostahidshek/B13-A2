@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar design */
+
+nav{
+  width: 1600px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #1a0b2e;
+  margin: 0 auto;
+}
+nav > h1{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 30px;
+  font-size: 50px;
+  color: white;
+}
+h1 > span{
+  background:linear-gradient(rgba(247, 233, 63, 1),rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+nav > ul{
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+  font-size: 1.20rem;
+  color: white;
+}
+nav > button{
+border: none;
+border-radius: 30px;
+font-size: 1.10rem;
+padding: 16px 25px;
+background: linear-gradient(rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+color: white;
+}
