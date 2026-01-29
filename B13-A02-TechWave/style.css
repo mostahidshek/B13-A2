@@ -44,3 +44,47 @@ padding: 16px 25px;
 background: linear-gradient(rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
 color: white;
 }
+
+/* Main Banner design  */
+
+.banner-section{
+  margin: 0 auto;
+  width: 1600px;
+  height: 760px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./assets/hero-bg.png);
+}
+.banner-section .hero-bg{
+  position: relative;
+}
+.banner-section .hero-bg .rounded-shape{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 15%);
+}
+.banner-section .hero-bg .mic{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 70%);
+}
+.banner-section .hero-bg .rounded-shape .mic .text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 70%);
+}
+.banner-section .hero-bg .text{
+  background-color: #00ff88;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 20px;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(85%, 125%);
+}
